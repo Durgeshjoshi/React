@@ -3,3 +3,4 @@ console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById("rot"));
 
 root.render(heading);
+

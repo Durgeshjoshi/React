@@ -2,4 +2,6 @@
     color: gray;
     background-color: red;
     display: inline;
+    padding-top: 10;
+    margin: 10px;
 }
