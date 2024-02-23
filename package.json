@@ -1,0 +1,32 @@
+{
+  "name": "react-proj",
+  "version": "1.0.0",
+  "description": "This is react js learning project",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Durgeshjoshi/React.git"
+  },
+  "keywords": [
+    "reactJs",
+    "react",
+    "js"
+  ],
+  "author": "Durgesh Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Durgeshjoshi/React/issues"
+  },
+  "homepage": "https://github.com/Durgeshjoshi/React#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
