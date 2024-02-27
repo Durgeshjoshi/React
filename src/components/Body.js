@@ -1,10 +1,19 @@
 import RestaurantContainer from "./RestaurantContainer";
 import restList from "../utilis/mockData";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Body = () => {
 
   const [restaurantList, setRestaurantList] = useState(restList);
+
+  // useEffect(() => {
+  //     fetchData();
+  // },[]);
+
+  // fetchData = () => {
+  //   const json = fetch();
+  // }
+
   return (
     <>
       <div className="body">
