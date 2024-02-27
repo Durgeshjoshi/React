@@ -6,3 +6,13 @@
     margin: 10px;
     background: #000;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4 {
+    margin: 10px;
+    word-wrap: break-word;
+}

@@ -4,6 +4,7 @@
   "description": "This is react js learning project",
   "main": "App.js",
   "scripts": {
+    "start":"npx  parcel index.html",
     "test": "jest"
   },
   "repository": {
@@ -28,5 +29,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist" : [
+    "last 2 versions"
+  ]
 }
