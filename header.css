@@ -20,6 +20,8 @@
 .nav-items > ul  li {
     padding: 10px;
     margin: 10px;
+    background-color: red;
+    color: yellow;
 
 }
 .search {
@@ -50,17 +52,22 @@
     width: 300px;
     border: 1px solid black;
     margin: 5px;
+    overflow: hidden;
 }
 
-.res-card :hover {    
+
+.res-card:hover{
     transform: scale(1.2); 
-}
+    transition: all ease-in .3s;
+} 
 
 .filter-btn {
     margin: 10px;
     cursor: pointer;
 }
 
-.login {
-    padding: 0px 10px;
+.login-btn {
+   padding: 0px 10px;
+   width: 100px;
+   overflow: hidden;
 }
