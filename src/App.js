@@ -1,16 +1,29 @@
 import React from "react";
 import ReactDom from "react-dom/client";
+
+
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
+import router from './router'
+import { RouterProvider } from "react-router-dom";
+
+
 
 const AppLayout = () => {
+
+
+ 
+
   return (
     <>
       <div className="app">
-        <Header />
+      <RouterProvider router={router} />
+        {/* <Register></Register> */}
+      {/* <Login></Login> */}
+        {/* <Header />
         <Body />
-        <Footer />
+        <Footer /> */}
       </div>
     </>
   );

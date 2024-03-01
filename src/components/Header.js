@@ -1,8 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { LOGO_URL } from "../utilis/constants";
 
 const Header = () => {
   const [login, setLogin] = useState("Login");
+
+  useEffect(() => {
+    console.log('use effect called');
+  })
   return (
     <div className="header">
       <div className="logo">
@@ -15,9 +19,9 @@ const Header = () => {
           <li>Contact Us</li>
           <li>Cart</li>
           <button
-            className="login"
+            className="login-btn"
             onClick={() => {
-              login === "Login" ? setLogin("Logout") : setLogin("Login");
+              login === "Login" ? setLogin("Logout") : setLogin("Logasfdsafdin");
             }}
           >
             {login}

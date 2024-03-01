@@ -103,6 +103,105 @@ const restList = [
       card: {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
         info: {
+          id: "6861859",
+          name: "SLYCE PIZZA",
+          cloudinaryImageId: "c14a58ef381226396b0976c35ad2f19a",
+          locality: "School Block",
+          areaName: "Shakarpur",
+          costForTwo: "₹600 for two",
+          cuisines: ["Pizzas", "Italian", "Fast Food"],
+          avgRating: 4.2,
+          parentId: "321813",
+          avgRatingString: "4.2",
+          totalRatingsString: "100+",
+          promoted: true,
+          adTrackingId:
+            "cid=11451778~p=1~eid=0000018d-e5fa-da4a-7a87-072600100143~srvts=1708960438858~83644",
+          sla: {
+            deliveryTime: 20,
+            lastMileTravel: 0.3,
+            serviceability: "SERVICEABLE",
+            slaString: "20 mins",
+            lastMileTravelString: "0.3 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2024-02-27 04:00:00",
+            opened: true,
+          },
+          badges: {
+            imageBadges: [
+              {
+                imageId: "newg.png",
+                description: "Gourmet",
+              },
+            ],
+          },
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textBased: {},
+              imageBased: {
+                badgeObject: [
+                  {
+                    attributes: {
+                      imageId: "newg.png",
+                      description: "Gourmet",
+                    },
+                  },
+                ],
+              },
+              textExtendedBadges: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "60% OFF",
+            subHeader: "UPTO ₹120",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "--",
+            },
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=681859&source=collection&query=Pizza",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+      },
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
           id: "769955",
           name: "Olio - The Wood Fired Pizzeria",
           cloudinaryImageId: "ucbg7vvayxhhaqtq3bak",
