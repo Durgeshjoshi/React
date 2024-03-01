@@ -1,7 +1,83 @@
-
+import './leftbar.scss';
 const Leftbar = () => {
   return (
+    <>
+    <div className="leftbar-div">
     <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    <div>Leftbar</div>
+    </div>
+    </>
   )
 }
 

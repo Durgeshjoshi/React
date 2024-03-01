@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom";
-const currentUser = false;
+const currentUser = true;
 
 export const ProtectRoute = ({children}) => {
   if(!currentUser) {
