@@ -64,3 +64,15 @@
 .login {
     padding: 0px 10px;
 }
+.simmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.simmer-card {
+    padding: 5px;    
+    width: 300px;
+    border: 1px solid black;
+    margin: 5px;
+    height: 350px;
+}
