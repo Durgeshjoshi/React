@@ -1,6 +1,7 @@
 import './navbar.scss';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
+import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
 import GridOnOutlinedIcon from '@mui/icons-material/GridOnOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
@@ -8,12 +9,13 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined';
 
 const Navbar = () => {
+  
   return (
     <div className='navbar'>
       <div className="left">
       <span>Swiggy World</span>
       <HomeOutlinedIcon />
-      <DarkModeOutlinedIcon />
+      {false ?  <WbSunnyOutlinedIcon /> :<DarkModeOutlinedIcon />}
       <GridOnOutlinedIcon />
       <div className="search">
       <SearchOutlinedIcon />
