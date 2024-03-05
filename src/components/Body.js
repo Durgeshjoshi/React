@@ -1,20 +1,25 @@
 import RestaurantContainer from "./RestaurantContainer";
-import restList from "../utilis/mockData";
+import SimmerUI from "./ShimmerUI";
 import { useState, useEffect } from "react";
 
 const Body = () => {
 
-  const [restaurantList, setRestaurantList] = useState(restList);
+  const [restaurantList, setRestaurantList] = useState([]);
 
-  // useEffect(() => {
-  //     fetchData();
-  // },[]);
+  useEffect(() => {
+      fetchData();
+  },[]);
 
-  // fetchData = () => {
-  //   const json = fetch();
-  // }
+  fetchData = async () => {
+    const data = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6275609&lng=77.2784081&collection=83645&tags=layout_CCS_NorthIndian&sortBy=&filters=&type=rcv2&offset=0&page_type=null');
+  
 
-  return (
+    const json = await data.json();
+    console.log(json?.data?.cards.slice(3));
+    setRestaurantList(json?.data?.cards.slice(3));
+  }
+
+  return restaurantList.length === 0 ? <SimmerUI /> : (
     <>
       <div className="body">
         <div className="search">
