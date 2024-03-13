@@ -6,6 +6,7 @@ import Body from "./components/Body";
 import Footer from "./components/Footer";
 import router from "./router";
 import { RouterProvider } from "react-router-dom";
+import { AuthContextProvider } from "./context/authContext";
 
 const AppLayout = () => {
   return (
@@ -22,4 +23,4 @@ const AppLayout = () => {
 
 const root = ReactDom.createRoot(document.getElementById("rot"));
 
-root.render(<AppLayout></AppLayout>);
+root.render(<AuthContextProvider><AppLayout></AppLayout></AuthContextProvider>);

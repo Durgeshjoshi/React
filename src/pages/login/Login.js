@@ -1,15 +1,21 @@
-import { useState } from 'react';
+import {  useContext, useState } from 'react';
 import './login.scss';
 import { Link } from "react-router-dom";
+import {AuthContext} from '../../context/authContext'
 const Login = () => {
     [form, setform] = useState({username:"",
     password:""})
 
+  const {login} = useContext(AuthContext);
+    
     function inputHandle(event){
-        console.log(form);
         setform({
             ...form,
             [event.target.name]:event.target.value})
+    }
+
+    const handleLogin = () => {
+        login();
     }
   return (
     <div className="login">
@@ -27,7 +33,7 @@ const Login = () => {
             <form action="">
                 <input type="text" placeholder='username' name="username" onChange={inputHandle} value={form.username}/>
                 <input type="password" placeholder='password' autoComplete="on" name="password" onChange={inputHandle} value={form.password}/>
-               <button>Login</button>
+               <button onClick={handleLogin}>Login</button>
             </form>
            
         </div>

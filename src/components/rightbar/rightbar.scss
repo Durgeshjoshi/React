@@ -4,6 +4,7 @@
     top: 70px;
     height: calc(100vh - 70px);
     overflow: scroll;
+    background-color: #f3f3f3;
 
     &::-webkit-scrollbar {
         display: none;
